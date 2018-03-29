@@ -1,0 +1,251 @@
+body {
+    width: 100%;
+
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/3-Infinite-Wooden-Floors.jpg");
+
+    /* Full height */
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+/* social media icons */
+.fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: none;
+  color: white;
+  margin-right: 0;
+}
+.fa-github{
+font-size:100px;
+}
+
+hr{
+  width: 70%;
+  color: red ;
+}
+
+ /* navigation bar */
+ .topnav {
+   width: 100%;
+   overflow: hidden;
+   background-color: beige;
+    position: fixed;
+
+ }
+
+ .topnav a {
+   float: left;
+   color: palevioletred;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 22px;
+   height: 50px;
+   font-style: oblique;
+
+
+ }
+
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ .topnav-right {
+   float: right;
+
+ }
+
+/* imgOne */
+ .float-img{
+
+height: 200px;
+ width: 290px;
+ display: block;
+ margin-left: 480px;
+ margin-bottom: 40px;
+ padding-top: 130px;
+ padding-left: 50px;
+
+ }
+
+
+#about {
+    text-align: justify;
+    padding-top: 60px;
+    padding-left: 30px;
+    width: 95%;
+    /* margin-top: 50px; */
+
+  }
+
+#projects{
+   padding-left: 30px; 
+ padding-top: 110px;
+ text-align: center;
+}
+#skills {
+  /* width: 100%; */
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 95%;
+
+
+}
+
+#github {
+  width: 70%;
+  height: 25px;
+  background-color: grey;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#html {
+  width: 60%;
+  height: 25px;
+  background-color: grey;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#css {
+  width: 40%;
+  height: 25px;
+  background-color: grey;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#javascript {
+  width: 20%;
+  height: 25px;
+  background-color: grey;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  max-width: 100px;
+
+}
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: left;
+    height: 120px;
+    margin-top: 100px;
+}
+
+button {
+    width:150px;
+    color: blue;
+    height: 50px;
+    margin-bottom: 50px;
+    }
+
+#items{
+  padding-bottom: 30px;
+}
+
+.copy{
+padding-left: 130px;
+}
+
+
+/*mobile*/
+@media screen and (max-width: 780px) {
+
+body{
+  /* background-color: #995c3e; */
+width: 100%;
+margin: 0;
+}
+
+.float-img{
+float: right;
+height: 200px;
+width: 200px;
+margin-right: 200px;
+margin-top: 40px;
+padding-top: 130px;
+
+}
+
+ #main{
+  flow-into: none;
+  margin-top: 100px;
+  text-transform: uppercase;
+
+}
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  background-color: beige;
+   position: fixed;
+   /* z-index: 3; */
+   background-position: bottom;
+   margin-top: -100px;
+}
+
+.copy{
+padding-left: 110px;
+}
+
+#about {
+    text-align: justify;
+    padding-top: 150px;
+    padding-left: 10px;
+    width: 95%;
+    /* margin-top: 50px; */
+
+  }
+  #skills {
+    /* width: 100%; */
+    padding-top: 70px;
+    padding-left: 10px;
+    width: 95%;
+
+
+
+  }
+footer{
+  height: 150px;
+
+}
+
+#projects{
+  /* padding-left: 30px; */
+ padding-top: 150px;
+ text-align: center;
+}
+.fa-github{
+font-size:100px;
+padding-right: 60px;
+}
+
+}
